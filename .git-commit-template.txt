@@ -1,0 +1,47 @@
+# Commit message template following Conventional Commits (https://www.conventionalcommits.org)
+#
+# Guidelines:
+# - Run this command once to set the commit template for your repository:
+#     git config commit.template .git-commit-template.txt
+# - Use: <type>(<scope>): <short summary>
+# - To indicate a breaking change in the header, add an exclamation mark (!) after the type or after the scope: 
+#     feat!: drop Node 10 support
+#     feat(core)!: change API signature
+# - Keep the subject (short summary) <= 50 characters and start lowercase
+# - Use the body to explain the what and why. Wrap at ~72 characters.
+# - Use the footer for breaking changes and/or issue references.
+# - Add a Signed-off-by line if you need to certify the DCO (Developer Certificate of Origin).
+#
+# Common types: feat, fix, docs, style, refactor, perf, test, build, ci, chore, revert
+# Example subject formats:
+#   feat(auth): add OAuth2 login
+#   fix(api): handle null response from server
+#   feat!: drop Node 10 support  # breaking change noted in header
+#   feat(core)!: change API signature  # breaking change for scoped type
+#
+# If this change introduces a breaking API change include BREAKING CHANGE in the footer.
+# Example footer for breaking change:
+#   BREAKING CHANGE: the `getUser()` function now returns a Promise instead of value
+#
+# If this commit relates to an issue/ticket include refs/Closes in the footer:
+#   Closes: #123
+#   Refs: JIRA-456
+#
+# DCO / Sign-off:
+#   Signed-off-by: Firstname Lastname <email@example.com>
+#
+# ---------- Begin commit message below ----------
+
+<type>(<scope>): <short summary>
+
+A more detailed description of the change: explain what and why.
+- Use bullet points for multiple small changes
+- Mention any tradeoffs or alternatives considered
+
+BREAKING CHANGE: describe the breaking change (if any)
+
+Closes: #<issue-number>
+Refs: <other-references>
+
+Signed-off-by: <Your Name> <your.email@example.com>
+# ---------- End commit message ----------
