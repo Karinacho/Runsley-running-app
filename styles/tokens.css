@@ -1,0 +1,62 @@
+/**
+ * Design Tokens - Foundation layer
+ * Base unit: 4px system using --s prefix
+ */
+
+:root {
+    /* Base unit */
+    --unit: 0.25rem; /* 4px */
+
+    /* Spacing scale: --s{number} = {number} × 4px */
+    --s1: 0.25rem; /* 4px */
+    --s2: 0.5rem; /* 8px */
+    --s3: 0.75rem; /* 12px */
+    --s4: 1rem; /* 16px */
+    --s5: 1.25rem; /* 20px */
+    --s6: 1.5rem; /* 24px */
+    --s7: 1.75rem; /* 28px */
+    --s8: 2rem; /* 32px */
+    --s9: 2.25rem; /* 36px */
+    --s10: 2.5rem; /* 40px */
+    --s11: 2.75rem; /* 44px */
+    --s12: 3rem; /* 48px */
+    --s14: 3.5rem; /* 56px */
+    --s16: 4rem; /* 64px */
+    --s18: 4.5rem; /* 72px */
+    --s20: 5rem; /* 80px */
+    --s22: 5.5rem; /* 88px */
+    --s24: 6rem; /* 96px */
+
+    /* Semantic tokens - Common spacing */
+    --gap-xs: var(--s1); /* 4px */
+    --gap-sm: var(--s2); /* 8px */
+    --gap: var(--s4); /* 16px */
+    --gap-md: var(--s6); /* 24px */
+    --gap-lg: var(--s8); /* 32px */
+    --gap-xl: var(--s12); /* 48px */
+
+    /* Colors */
+    
+    /* Typography */
+    --font-sans:
+        "Geist", system-ui, -apple-system, "Segoe UI", roboto, sans-serif;
+    --font-size-xs: 0.75rem; /* 12px */
+    --font-size-sm: 0.875rem; /* 14px */
+    --font-size-base: 1rem; /* 16px */
+    --font-size-lg: 1.125rem; /* 18px */
+    --font-size-xl: 1.25rem; /* 20px */
+    --font-size-2xl: 1.5rem; /* 24px */
+    --font-size-3xl: 2rem; /* 32px */
+
+    /* Border radius */
+    --radius-xs: var(--s1); /* 4px */
+    --radius-sm: var(--s2); /* 8px */
+    --radius: var(--s3); /* 12px */
+    --radius-lg: var(--s4); /* 16px */
+    --radius-xl: var(--s6); /* 24px */
+
+    /* Responsive overrides */
+
+
+}
+

@@ -1,0 +1,8 @@
+.primary-header {
+    height: var(--s16);
+    padding: var(--s4);
+}
+
+.primary-header-logo {
+    height: var(--s8);
+}
