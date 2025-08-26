@@ -5,15 +5,15 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "stylelint": "npx stylelint \"styles/**/*.css\"",
-        "stylelint:fix": "npx stylelint \"styles/**/*.css\" --fix"
+        "stylelint": "npx stylelint \"src/styles/**/*.css\"",
+        "stylelint:fix": "npx stylelint \"src/styles/**/*.css\" --fix"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
         "create-stylelint": "^0.5.0",
-        "prettier": "3.6.2",
+        "prettier": "^3.6.2",
         "stylelint": "^16.23.1",
         "stylelint-config-standard": "^39.0.0"
     }
