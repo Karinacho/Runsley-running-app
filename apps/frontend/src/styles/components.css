@@ -1,0 +1,31 @@
+.primary-header {
+    height: var(--s16);
+    padding: var(--s4);
+    display: flex;
+    justify-content: space-between;
+}
+
+.primary-header__logo {
+    height: var(--s8);
+}
+
+.primary-header__nav {
+    display: flex;
+}
+
+.primary-header__nav-link {
+    text-decoration: none;
+    cursor: pointer;
+    padding: var(--s2) var(--s4);
+    font-weight: 400;
+    color: var(--color-text-muted);
+    font-size: var(--font-size-base);
+
+    &:hover {
+        color: var(--color-text-dark);
+    }
+}
+
+.primary-header__actions-link {
+    text-decoration: none;
+}
