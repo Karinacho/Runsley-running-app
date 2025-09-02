@@ -1,13 +1,13 @@
 /* Box sizing */
 
-*, 
+*,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Reset margins */
-body, 
+body,
 h1,
 h2,
 h3,
@@ -16,7 +16,7 @@ h5,
 p,
 figure,
 picture {
-  margin: 0;
+    margin: 0;
 }
 
 /* set up the body */
@@ -29,7 +29,7 @@ body {
 img,
 picture {
     max-width: 100%;
-    max-height:100%;
+    max-height: 100%;
     display: block;
 }
 
@@ -50,5 +50,5 @@ select {
         animation-iteration-count: 1 !important;
         transition-duration: 0.01ms !important;
         scroll-behavior: auto !important;
-    } 
+    }
 }

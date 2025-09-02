@@ -22,7 +22,7 @@
     font-size: var(--font-size-base);
 
     &:hover {
-        color: var(--color-text-dark)
+        color: var(--color-text-dark);
     }
 }
 

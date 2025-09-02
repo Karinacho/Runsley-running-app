@@ -35,8 +35,6 @@
     --gap-lg: var(--s8); /* 32px */
     --gap-xl: var(--s12); /* 48px */
 
-    /* Colors */
-    
     /* Typography */
     --font-sans:
         "Geist", system-ui, -apple-system, "Segoe UI", roboto, sans-serif;
@@ -47,22 +45,16 @@
     --font-size-xl: 1.25rem; /* 20px */
     --font-size-2xl: 1.5rem; /* 24px */
     --font-size-3xl: 2rem; /* 32px */
-    
+
     /* Semantic text colors */
     --color-text-dark: #262626;
     --color-text-muted: #88888a;
     --color-text-subtle: #a3a3a3;
-    
+
     /* Border radius */
     --radius-xs: var(--s1); /* 4px */
     --radius-sm: var(--s2); /* 8px */
     --radius: var(--s3); /* 12px */
     --radius-lg: var(--s4); /* 16px */
     --radius-xl: var(--s6); /* 24px */
-
-    /* Responsive overrides */
-
-
 }
-
-
