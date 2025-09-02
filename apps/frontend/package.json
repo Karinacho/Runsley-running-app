@@ -6,7 +6,9 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "stylelint": "npx stylelint \"src/styles/**/*.css\"",
-        "stylelint:fix": "npx stylelint \"src/styles/**/*.css\" --fix"
+        "stylelint:fix": "npx stylelint \"src/styles/**/*.css\" --fix",
+        "prettier check": "npx prettier --check \"**/*.{html,css,js,json}\"",
+        "prettier write": "npx prettier --write \"apps/frontend/src/**/*.{html,css,js}\""
     },
     "keywords": [],
     "author": "",
