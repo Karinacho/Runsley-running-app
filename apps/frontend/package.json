@@ -1,23 +1,21 @@
 {
-    "name": "runsley-running-app",
+    "name": "@runsley/frontend",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "vite",
         "stylelint": "npx stylelint \"src/styles/**/*.css\"",
-        "stylelint:fix": "npx stylelint \"src/styles/**/*.css\" --fix",
-        "prettier check": "npx prettier --check \"**/*.{html,css,js,json}\"",
-        "prettier write": "npx prettier --write \"apps/frontend/src/**/*.{html,css,js}\""
+        "stylelint:fix": "npx stylelint \"src/styles/**/*.css\" --fix"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "create-stylelint": "^0.5.0",
         "prettier": "^3.6.2",
         "stylelint": "^16.23.1",
         "stylelint-config-standard": "^39.0.0",
-        "stylelint-selector-bem-pattern": "^4.0.1"
+        "stylelint-selector-bem-pattern": "^4.0.1",
+        "vite": "^7.1.4"
     }
 }
