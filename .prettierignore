@@ -1,0 +1,15 @@
+# Ignore artifacts and generated files
+build
+dist
+coverage
+.next
+node_modules
+
+# Lockfiles (do not format)
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Minified / vendor files
+*.min.js
+vendor/
